@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">Developer <span>M.</span></a>
+
+        <div onclick=showSidebar() class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="top-btn">
+            <a href="#contact" class="h-btn">Contact me</a>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="main-content" data-aos="fade-in">
+            <h4>Hi, There!</h4>
+            <h1>I'm <span>Mirsaid</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, eveniet!</p>
+            <div class="social">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+
+            <div class="main-btn">
+                <a href="#" class="btn">Hire me</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img" data-aos="zoom-in-down">
+            <img src="img/about.jpg" alt="">
+        </div>
+
+        <div class="about-text" data-aos="zoom-in-up">
+            <h2>
+                I am Frontend
+                <br>
+                <span>Developer</span>
+                <!-- <br>
+                & Web Developer -->
+            </h2>
+            <div class="exp-area">
+                <p class="exp">
+                    Experience:
+                    <span>1 Year</span>
+                </p>
+                <p class="exp">
+                    Skills:
+                    <!-- <span>Frontend Developer</span> -->
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                    <span>React</span>
+                    <span>SCSS</span>
+                </p>
+                <p class="exp">
+                    Email:
+                    <span>mirsaid06@gmail.com</span>
+                </p>
+                <p class="exp">
+                    Phone:
+                    <span>+998930094695</span>
+                </p>
+            </div>
+            <a href="#portfolio" class="btn">View All Projects</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="center-text" data-aos="fade-down">
+            <h2>My <span>Services</span></h2>
+        </div>
+
+        <div class="services-content" data-aos="zoom-in-down">
+            <div class="box">
+                <img src="img/s-1.svg" alt="">
+                <h3>UI/UX Design</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolorem. Reprehenderit cumque qui
+                    dolorem sunt!
+                </p>
+                <a href="#">
+                    Visit now
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+
+            <div class="box">
+                <img src="img/s-2.svg" alt="">
+                <h3>CodePen Profile</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolorem. Reprehenderit cumque qui
+                    dolorem sunt!
+                </p>
+                <a href="https://codepen.io/said_front/pens/loved" target="_blank">
+                    Visit now
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+
+            <div class="box">
+                <img src="img/s-3.svg" alt="">
+                <h3>UI/UX Design</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolorem. Reprehenderit cumque qui
+                    dolorem sunt!
+                </p>
+                <a href="#">
+                    Visit now
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="center-text" data-aos="fade-down">
+            <h2>My <span>Portfolio</span></h2>
+        </div>
+
+        <div class="portfolio-content" data-aos="zoom-in-up">
+            <div class="row">
+                <img src="img/port-1.jpg" alt="">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Website Design</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href="https://said-prog.netlify.app/" target="_blank">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <h4>Website Development For Dark X</h4>
+            </div>
+
+            <div class="row">
+                <img src="img/port-2.jpg" alt="">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Website Design</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href="https://finexo-multiple-page.netlify.app/" target="_blank">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <h4>MultiplePage Website Development</h4>
+            </div>
+
+            <div class="row">
+                <img src="img/port-3.jpg" alt="">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Website Design</h5>
+                    </div>
+                    <div class="row-icon">
+                        <a href="https://moon-light-parallax-scroll.netlify.app/">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <h4>Website Development For Dark X</h4>
+            </div>
+
+            <div class="row">
+                <img src="img/port-4.jpg" alt="">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Website Design</h5>
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-github-fill"></i>
+                    </div>
+                </div>
+                <h4>Website Development For Dark X</h4>
+            </div>
+
+            <div class="row">
+                <img src="img/port-5.jpg" alt="">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Website Design</h5>
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-github-fill"></i>
+                    </div>
+                </div>
+                <h4>Website Development For Dark X</h4>
+            </div>
+
+            <div class="row">
+                <img src="img/port-6.jpg" alt="">
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Website Design</h5>
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-github-fill"></i>
+                    </div>
+                </div>
+                <h4>Website Development For Dark X</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="center-text" data-aos="fade-down">
+            <h2>Contact <span>Me</span></h2>
+        </div>
+
+        <div class="contact-form" data-aos="zoom-in">
+            <form action="">
+                <input type="text" placeholder="Your name" required>
+                <input type="email" placeholder="Email Address..." required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..." required></textarea>
+                <input type="submit" name="" value="Send Message" class="send-btn">
+            </form>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="copyright">
+            <p>2024 Mirsaid, All Rights Reserved.</p>
+        </div>
+
+        <a href="#home" class="scroll-top">
+            <i class="ri-arrow-up-s-fill"></i>
+        </a>
+    </div>
+
+
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1400,
+        });
+    </script>
+</body>
+
+</html>
